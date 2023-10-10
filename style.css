@@ -1,0 +1,350 @@
+
+        body, ul {
+            margin: 0;
+            padding: 0;
+            height: 35px;
+        }
+
+
+        .navbar {
+            background-color: #0000ff;
+            overflow: hidden;
+        }
+
+      
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin-right: 30px;
+            margin-left: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+     
+
+        /* Style for the search bar */
+        .search-bar {
+            margin-right: 20px;
+        }
+
+        .banner-card {
+            position: relative
+        }
+        .banner-card img{
+               width: 100%;
+                     
+        }
+        .banner-text{
+            position: absolute;
+            top: 0;
+            color: black;
+            padding: 10px;
+        }
+        .navbar-2 {
+            background-color: whitesmoke;
+            overflow: hidden;
+        }
+        .navbar-2 li {
+            margin-right: 30px;
+            margin-left: 15px;
+        }
+
+        .navbar-2 a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        /* Style for the navbar links */
+        .navbar-2 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+
+        .hero-section {
+            display: flex;
+            flex-direction: row; 
+            align-items: center; 
+            padding: 20px;
+        }
+
+        /* Style for the image */
+        .image {
+            max-width: 100%; 
+            height: auto;
+            margin-right: 20px; 
+        }
+
+        /* Style for the text */
+        .text {
+            flex: 1; }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: blue; 
+            margin: 20px 50; 
+        }
+
+
+        /* hero section 2 */
+        .hero-section-2 {
+            display: flex;
+            flex-direction: row; 
+            align-items: center; 
+            padding: 20px;
+        }
+
+        /* Style for the text on the left */
+        .text {
+            flex: 1; 
+        }
+
+        /* Style for the form on the right */
+        .form {
+            flex: 1; 
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        /* Style for form fields */
+        .form input[type="text"],
+        .form input[type="email"],
+        .form textarea,
+        .form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Style for the submit button */
+        .form button {
+            background-color: #007bff; 
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* FAQs */
+      
+          .faq-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        
+        .question {
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+       
+
+
+        }
+
+        .answer {
+            display: none; 
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            background-color: white;
+        }
+
+        .icon {
+            font-size: 18px;
+            margin-right: 5px;
+        }
+
+ 
+        .opened {
+            display: block; 
+        }
+
+
+        /* testimonials */
+
+ .card-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+
+.card {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 20px; 
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 16px;
+}
+ 
+  .pre-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E90FF;
+    border-radius: 5px;
+}
+
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+h3 {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 10px; 
+}
+
+.footer {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .child ul li {
+    list-style: none;
+  }
+  .child {
+    display: inline-block;
+    padding: 20px 20px;
+    vertical-align: middle;
+    color: white;
+  }
+  .sub-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ .sub-footer .div {
+    flex: 0 0 calc(33.33% - 20px); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            
+            .hero-section {
+                flex-direction: column; 
+                text-align: center; 
+            }
+
+            .image {
+                margin-right: 0; 
+                margin-bottom: 10px; 
+            }
+            .question, .answer {
+                padding: 5px;
+                font-size: 14px;
+            }
+
+            .icon {
+                font-size: 14px;
+            }
+            .card-container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .card {
+                margin: 10px 0;
+            }
+
+            .pre-footer h1 {
+                font-size: 24px;
+            }
+
+            .pre-footer h4 {
+                font-size: 18px;
+            }
+
+            .pre-footer button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+
+            .pre-footer h3 {
+                font-size: 16px;
+            }
+            .sub-footer {
+                flex-direction: column; 
+            }
+
+            .sub-footer .div {
+                flex: 1; 
+                margin-bottom: 20px; 
+            }
+        }
